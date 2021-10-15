@@ -1,0 +1,9 @@
+C:\Users\Vardan\source\repos\DeterminantCalculator\bin\Debug\DeterminantCalculator.exe
+C:\Users\Vardan\source\repos\DeterminantCalculator\bin\Debug\DeterminantCalculator.pdb
+C:\Users\Vardan\source\repos\DeterminantCalculator\obj\Debug\DeterminantCalculator.csprojAssemblyReference.cache
+C:\Users\Vardan\source\repos\DeterminantCalculator\obj\Debug\DeterminantCalculator.Form1.resources
+C:\Users\Vardan\source\repos\DeterminantCalculator\obj\Debug\DeterminantCalculator.Properties.Resources.resources
+C:\Users\Vardan\source\repos\DeterminantCalculator\obj\Debug\DeterminantCalculator.csproj.GenerateResource.cache
+C:\Users\Vardan\source\repos\DeterminantCalculator\obj\Debug\DeterminantCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Vardan\source\repos\DeterminantCalculator\obj\Debug\DeterminantCalculator.exe
+C:\Users\Vardan\source\repos\DeterminantCalculator\obj\Debug\DeterminantCalculator.pdb
