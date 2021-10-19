@@ -12,10 +12,10 @@ namespace DeterminantCalculator
 {
     public partial class Form1 : Form
     {
-        const int INPUT_FIELD_WIDTH = 40;
-        const int INPUT_FIELD_HEIGHT = 26;
-        const int DEFUALT_TOP_MARGIN = 50;
-        const int PADDING = 10;
+        const int INPUT_FIELD_WIDTH = 40; // դաշտի չափսերը 
+        const int INPUT_FIELD_HEIGHT = 26;  // դաշտի չափսերը
+        const int DEFUALT_TOP_MARGIN = 50; // վերևից հեռավորությունը
+        const int PADDING = 10; // դաշետրի միջև տարածությունը
         public Panel elementsPanel;
         public TextBox[,] elementsTextBoxes;
         public Button calculateButton;
