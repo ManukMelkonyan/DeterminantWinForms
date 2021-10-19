@@ -16,16 +16,16 @@ namespace DeterminantCalculator
         const int INPUT_FIELD_HEIGHT = 26;  // դաշտի չափսերը
         const int DEFUALT_TOP_MARGIN = 50; // վերևից հեռավորությունը
         const int PADDING = 10; // դաշետրի միջև տարածությունը
-        public Panel elementsPanel;
-        public TextBox[,] elementsTextBoxes;
-        public Button calculateButton;
-        public Label resultLabel;
-        public double[,] elements;
-        public int matrixSize;
+        public Panel elementsPanel; // բոլոր դաշտերը սրա վրա են լինելու
+        public TextBox[,] elementsTextBoxes; // դաշտեր
+        public Button calculateButton; // button հաշվելու համար
+        public Label resultLabel; // արդյունքը տեսնելու համար
+        public double[,] elements; // դաշտերի արժեքները հաշվելու համար
+        public int matrixSize; // մատրիցի չափսերը
         public Form1()
         {
             InitializeComponent();
-
+            // կոմբոբոքսում ավելացնում ենք 2-ից 10 չափսերը
             for (int i = 2; i <= 10; ++i)
             {
                 sizeSelector.Items.Add(i);
