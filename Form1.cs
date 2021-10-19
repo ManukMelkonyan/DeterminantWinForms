@@ -110,7 +110,7 @@ namespace DeterminantCalculator
             Controls.Add(resultLabel);
         }
 
-        private void ElementTextBox_Leave(object sender, EventArgs e)
+        private void ElementTextBox_Leave(object sender, EventArgs e) // եթե դատարկ string գրենք փոխի 0-ի
         {
             if((sender as TextBox).Text == "")
             {
@@ -118,7 +118,7 @@ namespace DeterminantCalculator
             }
         }
 
-        private void CalculateButtonClick(object sender, EventArgs e)
+        private void CalculateButtonClick(object sender, EventArgs e) // հաշվում է դետերմինանտը
         {
             for(int i = 0; i < matrixSize; ++i)
             {
@@ -130,7 +130,7 @@ namespace DeterminantCalculator
             double determinant = MatrixMethods.Determinant(elements);
             resultLabel.Text = determinant.ToString();
         }
-        private void ElementTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        private void ElementTextBox_KeyPress(object sender, KeyPressEventArgs e) // թույլ չի տալիս սխալ input ստանալ
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
                 (e.KeyChar != '.'))
