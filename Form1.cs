@@ -32,8 +32,9 @@ namespace DeterminantCalculator
             }
             sizeSelector.SelectedItem = 3;
         }
-
-        private void SizeSelector_SelectedIndexChanged(object sender, EventArgs e)
+        
+        
+        private void SizeSelector_SelectedIndexChanged(object sender, EventArgs e) // ջնջում է հին մատրիցը և սարքում նորը, երբ չափսը փոխում ենք
         {
             matrixSize = (int)sizeSelector.SelectedItem;
             Controls.Remove(elementsPanel);
