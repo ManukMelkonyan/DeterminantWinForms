@@ -133,13 +133,17 @@ namespace DeterminantCalculator
         private void ElementTextBox_KeyPress(object sender, KeyPressEventArgs e) // թույլ չի տալիս սխալ input ստանալ
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
-                (e.KeyChar != '.'))
+                (e.KeyChar != '.') && (e.KeyChar != '-'))
             {
                 e.Handled = true;
             }
 
             // only allow one decimal point
             if ((e.KeyChar == '.') && ((sender as TextBox).Text.Contains('.')))
+            {
+                e.Handled = true;
+            }
+            if ((e.KeyChar == '-') && ((sender as TextBox).Text.Contains('-')))
             {
                 e.Handled = true;
             }
